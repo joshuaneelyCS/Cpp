@@ -13,11 +13,7 @@ int find_missing_value(vector<int> first, vector<int> second) {
 
     for (int i = 0; i < first.size(); i++) {
         found = false;
-        int num1;
-        int num2;
         for (int j = 0; j < second.size(); j++) {
-            num1 = first[i];
-            num2 = second[j];
             if (first[i] == second[j]) { found=true; break;}
         }
         if (!found) {
