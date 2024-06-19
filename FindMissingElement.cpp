@@ -6,6 +6,8 @@
 #include <vector>
 using std::vector;
 
+//Given two vectors of ints with the same values in different order, and there is one value missing
+//from the second vector, find_missing_value finds the missing value in the second vector
 int find_missing_value(vector<int> first, vector<int> second) {
     bool found = false;
 
